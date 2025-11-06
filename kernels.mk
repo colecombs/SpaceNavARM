@@ -13,6 +13,9 @@
       'kernels/L2_de441.bsp'
       'kernels/L4_de441.bsp'
       'kernels/L5_de441.bsp'
+      'kernels/jup365.bsp'
+      'kernels/sat441.bsp'
+      'kernels/sat457.bsp'
    )
 
 \begintext

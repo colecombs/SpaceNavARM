@@ -1,4 +1,8 @@
- 
+The instructions below are the original version from JPL and work just fine on x64 processors.
+
+For ARM compilation read the cspice_arm.txt and compilation_flags.txt files.
+
+
 Instructions for Importing the CSPICE Toolkit
 ===========================================================================
  
@@ -281,4 +285,5 @@ Java compiler
    It is assumed that you have a working Java compiler and that your
    environment is set up so that you can simply type "javac" to invoke the
    compiler.
+
  

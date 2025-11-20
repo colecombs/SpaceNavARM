@@ -30,6 +30,12 @@ wget https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00010.tpc
 
 wget https://naif.jpl.nasa.gov/pub/naif/generic_kernels/pck/pck00011.tpc
 
+wget https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/jup365.bsp
+
+wget https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat441.bsp
+
+wget https://naif.jpl.nasa.gov/pub/naif/generic_kernels/spk/satellites/sat457.bsp
+
 wget https://naif.jpl.nasa.gov/pub/naif/generic_kernels/stars/tycho2.xdb.Z
 
 wget https://naif.jpl.nasa.gov/pub/naif/generic_kernels/stars/readme.txt

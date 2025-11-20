@@ -54,8 +54,6 @@ int main() {
     // --- 1. Load Kernels ---
     // A "metakernel" is a text file that lists all other
     // kernels we want to load. This is the best practice.
-    //
-    // We haven't created this file yet, but we will in the next step.
     const char* metakernel = "kernels.mk";
     furnsh_c(metakernel);
     checkSpiceError("furnsh_c (loading metakernel)");
@@ -97,7 +95,10 @@ int main() {
     //
     // NEW FIX: The de421.bsp kernel *does* contain "EARTH" (399),
     // so we can go back to using "EARTH" as the observer.
-    spkezr_c("MARS", et, "J2000", "NONE", "EARTH", marsState, &lightTime);
+    spkezr_c("MARS", et, "J2000", "NONE", "EARTH", marsState, &lightTime); 
+    // Mars is input here to pull the data from the kernel, but can be substituted for any other planet.
+    // Can also be substituted for other bodies like moons/asteroids, IF the appropriate kernel is saved locally and added to kernels.mk
+    // Can also swap Earth for another body to find current distance between any two bodies, or distance at input date/time.
     checkSpiceError("spkezr_c (calculating Mars state)");
 
     // --- 4. Display Results ---
